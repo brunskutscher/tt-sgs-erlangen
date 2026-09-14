@@ -1,0 +1,16 @@
+{
+  "name": "Hugo (Debian)",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/${localWorkspaceFolderBasename},type=bind",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "features": {
+    "ghcr.io/devcontainers/features/hugo:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "shellomo.enhanced-toml"
+      ]
+    }
+  }
+}

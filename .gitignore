@@ -1,0 +1,21 @@
+# Generated site directory
+/public/
+
+# Hugo generated resources (e.g., images, SCSS)
+/resources/_gen/
+
+# Hugo build state and lock files
+.hugo_build.lock
+hugo_stats.json
+
+# Node modules (if you are using npm for themes or asset pipelines)
+/node_modules/
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# Compiled Hugo binaries (if you develop/test locally)
+hugo.exe
+hugo.linux
+hugo.darwin

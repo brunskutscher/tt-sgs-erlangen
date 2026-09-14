@@ -1,0 +1,20 @@
+baseURL = 'https://example.org/'
+
+locale = 'de-DE'
+defaultContentLanguage='de'
+
+theme = 'ananke'
+
+title = 'Tischtennis SGS Erlangen'
+description="Tischtennis in der Sportgemeinschaft Siemens e.V."
+
+[params]
+    site_logo = "images/SGS_Logo_100_100.svg"
+
+[menus]
+
+[[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 5  

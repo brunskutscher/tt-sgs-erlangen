@@ -19,3 +19,4 @@ description="Tischtennis in der Sportgemeinschaft Siemens e.V."
     name = "Home"
     url = "/"                   # points to content/_index.md
     weight = 5
+

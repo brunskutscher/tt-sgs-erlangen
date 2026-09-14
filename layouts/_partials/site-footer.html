@@ -1,8 +1,16 @@
-<footer class="{{ .Site.Params.background_color_class | compare.Default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="{{ .Site.Home.Permalink }}" >
-    &copy; {{ with .Site.Copyright | compare.Default .Site.Title }} {{ . | safe.HTML }} {{ now.Format "2006"}} {{ end }}
-  </a>
+<footer class="{{ .Site.Params.background_color_class | compare.Default " bg-black" }} bottom-0 w-100 pa3"
+  role="contentinfo">
+  <div class="flex flex-wrap-reverse items-center">
+    <a class="f4 fw4 hover-white white-70  dib-ns  pv2 ph3 no-underline" href="{{ .Site.Home.Permalink }}">
+      &copy; {{ with .Site.Copyright | compare.Default .Site.Title }} {{ . | safe.HTML }} {{ now.Format "2006"}} {{
+      end}}
+    </a>
+    <div class="flex justify-center">
+      <a href="/impressum/"
+        class="f6 flex-row-reverse-ns white-70 hover-white no-underline dib-ns pv2 ph3">Impressum</a>
+      <a href="/datenschutzerklärung/"
+        class="f6 flex-row-reverse-ns white-70 hover-white no-underline dib-ns pv2 ph3">Datenschutzerklärung</a>
+    </div>
     <div>{{ partials.IncludeCached "social/follow.html" . }}</div>
   </div>
 </footer>

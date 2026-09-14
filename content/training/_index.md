@@ -7,4 +7,8 @@ omit_header_text = true
 menus = 'main'
 +++
 
-> **_TODO_:**  Add actual training information tocontent/training/_index.md
+> **_TODO_:**  In der Regel findet das Training Montags, Mittwochs und Freitags statt. Die Trainingsorte sind 
+- im Trainingsraum der SGS Tischtennis Abteilung in  der Kommotauer Straße.
+- in der Mehrzweckhalle in der Kommotau Straße. 
+- in der Sporthalle West des Gymnasium Fridericianum Erlangen.
+

@@ -17,7 +17,7 @@ Vom Theme-Ananke werden Layouts, Stile und Skripte bereitgestellt, die das Ersch
 2. Repository klonen: `git clone https://github.com/dein-benutzername/tt-sgs-erlangen.git`
 3. In das Projektverzeichnis wechseln: `cd tt-sgs-erlangen`
 4. Submodule initialisieren: `git submodule update --init --recursive`
-5. Lokalen Server starten: `hugo server`
+5. Lokalen Server starten: `hugo server -D`
 
 Danach kann die Website im Browser unter `http://localhost:1313` aufgerufen werden. 
 

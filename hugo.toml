@@ -13,12 +13,23 @@ description="Tischtennis in der Sportgemeinschaft Siemens e.V."
     featured_image_class = "cover bg-center"
     header_section_class = "tc-l pv3 ph3 ph4-ns" # make the header (site-header i.e home page and list pages) smaller
 
-
 [menus]
 
 [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/"                   # points to content/_index.md
+    url = "/"                   # link to content/_index.md
     weight = 5
 
+[[menu.main]]
+    identifier = "training"
+    name = "Training"
+    url = "/training/"          # link to content/training/_index.md
+    weight = 10
+    
+[[menu.main]]
+    identifier = "aktuelles"
+    name = "Aktuelles"
+    url = "/aktuelles/"          # link to content/aktuelles/_index.md
+    weight = 20
+    

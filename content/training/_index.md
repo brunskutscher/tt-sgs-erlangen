@@ -4,7 +4,6 @@ draft = true
 title = 'Training'
 featured_image = "images/NeutralFoto.webp"
 omit_header_text = true
-menus = 'main'
 +++
 
 > **_TODO_:**  In der Regel findet das Training Montags, Mittwochs und Freitags statt. Die Trainingsorte sind 

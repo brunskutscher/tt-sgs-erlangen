@@ -4,7 +4,6 @@ draft = true
 title = 'Aktuelles'
 featured_image = "images/NeutralFoto.webp"
 omit_header_text = true
-menus = 'main'
 +++
 
 > **_TODO_:**  Add actual news as individual mardown in content/aktuelles

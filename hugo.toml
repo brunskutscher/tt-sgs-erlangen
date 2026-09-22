@@ -9,7 +9,7 @@ title = 'Tischtennis SGS Erlangen'
 description="Tischtennis in der Sportgemeinschaft Siemens e.V."
 
 [params]
-    site_logo = "images/SGS_Logo_100_100.svg"
+    site_logo = "images/SGS_Logo_150_150.svg"
     featured_image_class = "cover bg-center"
     header_section_class = "tc-l pv3 ph3 ph4-ns" # make the header (site-header i.e home page and list pages) smaller
 

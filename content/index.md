@@ -1,8 +1,8 @@
 +++
 date = '2026-09-14T17:33:20+02:00'
 draft = true
-title = 'Tischtennis SGS Erlangen'
-description = "Tischtennis in der Sportgemeinschaft Siemens Erlangen e.V."
+title = 'Tischtennis'
+description = "in der Sportgemeinschaft Siemens Erlangen e.V."
 featured_image = "images/NeutralFoto.webp"
 omit_header_text = true
 +++
